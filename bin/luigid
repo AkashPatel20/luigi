@@ -3,8 +3,6 @@
 import sys
 import warnings
 import luigi.cmdline
-import json
-
 
 def main(argv):
     warnings.warn("'bin/luigid' has moved to console script 'luigid'", DeprecationWarning)
